@@ -12,15 +12,16 @@ import IconPerson from '../images/icon-person.svg'
 function App() {
 
   return (
-    <main>
+    <main className='flex flex-col justify-center items-center'>
       <img src={Logo} alt="logo" className='m-auto py-[50px]'/>
-      <section id='calculator' className='h-screen flex flex-col items-center gap-8 px-6 py-8 bg-white rounded-t-2xl'>
+      <section id='calculator' className='w-full h-screen flex flex-col items-center gap-8 px-6 py-8 bg-white rounded-t-2xl md:max-w-[600px] md:px-20 py-12 md:h-auto xl:flex'>
 
+
+        <section id='tip-selection' className='w-full flex flex-col gap-8'>
         <Input label="Bill" name="bill" src={IconDollar} alt="Icon Dollar"/>
-
-        <section id='tip-selection' className='w-full'>
+        <div>
           <h2 className='preset-5 text-grey-500 pb-2'>Select tip %</h2>
-          <div className='grid grid-cols-2 gap-2'>
+          <div className='grid grid-cols-2 gap-2 md:grid-cols-3'>
             <TipButton text="5%"/>
             <TipButton text="10%"/>
             <TipButton text="15%"/>
@@ -28,9 +29,10 @@ function App() {
             <TipButton text="50%"/>
             <TipButtonCustom />
           </div>
+        </div>
+        <Input label="Person" name="person" src={IconPerson} alt="Icon Person"/>
         </section>
 
-        <Input label="Person" name="person" src={IconPerson} alt="Icon Person"/>
 
         <section id='result' className='w-full p-6 rounded-2xl bg-green2-900'>
           <div className='flex flex-col gap-6 pb-8'>
