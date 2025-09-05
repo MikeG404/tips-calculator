@@ -3,6 +3,7 @@ import Input from './components/Input'
 
 import Logo from '../images/logo.svg'
 import IconDollar from '../images/icon-dollar.svg'
+import IconPerson from '../images/icon-person.svg'
 import TipButton from './components/TipButton'
 import TipButtonCustom from './components/TipButtonCustom'
 
@@ -12,7 +13,7 @@ function App() {
     <main>
       <img src={Logo} alt="logo" className='m-auto py-[50px]'/>
       <section id='calculator' className='h-screen flex flex-col items-center gap-8 px-6 py-8 bg-white rounded-t-2xl'>
-        <Input name="bill" src={IconDollar} alt="Icon Dollar"/>
+        <Input label="Bill" name="bill" src={IconDollar} alt="Icon Dollar"/>
         <section id='tip-selection' className='w-full'>
           <h2 className='preset-5 text-grey-500 pb-2'>Select tip %</h2>
           <div className='grid grid-cols-2 gap-2'>
@@ -24,6 +25,7 @@ function App() {
             <TipButtonCustom />
           </div>
         </section>
+        <Input label="Person" name="person" src={IconPerson} alt="Icon Person"/>
       </section>
     </main>
   )

@@ -1,7 +1,7 @@
-export default function Input({name, src, alt, value, onChange}) {
+export default function Input({label, name, src, alt, value, onChange}) {
   return ( 
     <label htmlFor={name} className="flex flex-col w-full gap-2 preset-5 text-grey-500">
-        Bill
+        {label}
         <div className="relative w-full">
             <img src={src} alt={alt} className="absolute top-3 left-4"/>
             <input
