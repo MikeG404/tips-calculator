@@ -1,6 +1,11 @@
 @import url('./variables.css');
 @import "tailwindcss";
 
+body {
+    min-height: 100vh;
+    background-color: var(--grey-200);
+}
+
 .preset-1 {
   font-family: var(--font-mono);
   font-size: var(--preset-1-size);
@@ -44,25 +49,53 @@
   font-weight: bold;
 }
 
-/* Espacements utilitaires */
-.mt-0    { margin-top: var(--spacing-0); }
-.mt-100  { margin-top: var(--spacing-100); }
-.mt-200  { margin-top: var(--spacing-200); }
-.mt-300  { margin-top: var(--spacing-300); }
-.mt-400  { margin-top: var(--spacing-400); }
-.mt-600  { margin-top: var(--spacing-600); }
-.mt-1000 { margin-top: var(--spacing-1000); }
-.mt-1200 { margin-top: var(--spacing-1200); }
-.mt-1500 { margin-top: var(--spacing-1500); }
-.mt-1600 { margin-top: var(--spacing-1600); }
+/* Utilitaires couleurs de fond */
+.bg-white { background-color: var(--white); }
+.bg-black { background-color: var(--black); }
+.bg-grey-600 { background-color: var(--grey-600); }
+.bg-grey-550 { background-color: var(--grey-550); }
+.bg-grey-500 { background-color: var(--grey-500); }
+.bg-grey-400 { background-color: var(--grey-400); }
+.bg-grey-300 { background-color: var(--grey-300); }
+.bg-grey-200 { background-color: var(--grey-200); }
+.bg-grey-50  { background-color: var(--grey-50); }
+.bg-green2-900 { background-color: var(--green-900); }
+.bg-green2-840 { background-color: var(--green-840); }
+.bg-green2-700 { background-color: var(--green-700); }
+.bg-green2-400 { background-color: var(--green-400); }
+.bg-green2-200 { background-color: var(--green-200); }
+.bg-orange-400 { background-color: var(--orange-400); }
 
-.p-0    { padding: var(--spacing-0); }
-.p-100  { padding: var(--spacing-100); }
-.p-200  { padding: var(--spacing-200); }
-.p-300  { padding: var(--spacing-300); }
-.p-400  { padding: var(--spacing-400); }
-.p-600  { padding: var(--spacing-600); }
-.p-1000 { padding: var(--spacing-1000); }
-.p-1200 { padding: var(--spacing-1200); }
-.p-1500 { padding: var(--spacing-1500); }
-.p-1600 { padding: var(--spacing-1600); }
+/* Utilitaires couleurs de texte */
+.text-white { color: var(--white); }
+.text-black { color: var(--black); }
+.text-grey-600 { color: var(--grey-600); }
+.text-grey-550 { color: var(--grey-550); }
+.text-grey-500 { color: var(--grey-500); }
+.text-grey-400 { color: var(--grey-400); }
+.text-grey-300 { color: var(--grey-300); }
+.text-grey-200 { color: var(--grey-200); }
+.text-grey-50  { color: var(--grey-50); }
+.text-green2-900 { color: var(--green-900); }
+.text-green2-840 { color: var(--green-840); }
+.text-green2-700 { color: var(--green-700); }
+.text-green2-400 { color: var(--green-400); }
+.text-green2-200 { color: var(--green-200); }
+.text-orange-400 { color: var(--orange-400); }
+
+/* Utilitaires couleurs de bordure */
+.border-white { border-color: var(--white); }
+.border-black { border-color: var(--black); }
+.border-grey-600 { border-color: var(--grey-600); }
+.border-grey-550 { border-color: var(--grey-550); }
+.border-grey-500 { border-color: var(--grey-500); }
+.border-grey-400 { border-color: var(--grey-400); }
+.border-grey-300 { border-color: var(--grey-300); }
+.border-grey-200 { border-color: var(--grey-200); }
+.border-grey-50  { border-color: var(--grey-50); }
+.border-green2-900 { border-color: var(--green-900); }
+.border-green2-840 { border-color: var(--green-840); }
+.border-green2-700 { border-color: var(--green-700); }
+.border-green2-400 { border-color: var(--green-400); }
+.border-green2-200 { border-color: var(--green-200); }
+.border-orange-400 { border-color: var(--orange-400); }
