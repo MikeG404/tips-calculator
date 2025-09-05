@@ -50,8 +50,6 @@ body {
 }
 
 /* Utilitaires couleurs de fond */
-.bg-white { background-color: var(--white); }
-.bg-black { background-color: var(--black); }
 .bg-grey-600 { background-color: var(--grey-600); }
 .bg-grey-550 { background-color: var(--grey-550); }
 .bg-grey-500 { background-color: var(--grey-500); }
@@ -67,8 +65,6 @@ body {
 .bg-orange-400 { background-color: var(--orange-400); }
 
 /* Utilitaires couleurs de texte */
-.text-white { color: var(--white); }
-.text-black { color: var(--black); }
 .text-grey-600 { color: var(--grey-600); }
 .text-grey-550 { color: var(--grey-550); }
 .text-grey-500 { color: var(--grey-500); }
@@ -84,8 +80,6 @@ body {
 .text-orange-400 { color: var(--orange-400); }
 
 /* Utilitaires couleurs de bordure */
-.border-white { border-color: var(--white); }
-.border-black { border-color: var(--black); }
 .border-grey-600 { border-color: var(--grey-600); }
 .border-grey-550 { border-color: var(--grey-550); }
 .border-grey-500 { border-color: var(--grey-500); }
