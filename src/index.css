@@ -58,7 +58,8 @@ body {
 .bg-grey-200 { background-color: var(--grey-200); }
 .bg-grey-50  { background-color: var(--grey-50); }
 .bg-green2-900 { background-color: var(--green-900); }
-.bg-green2-840 { background-color: var(--green-840); }
+.bg-green2-800 { background-color: var(--green-800); }
+.bg-green2-750 { background-color: var(--green-750);}
 .bg-green2-700 { background-color: var(--green-700); }
 .bg-green2-400 { background-color: var(--green-400); }
 .bg-green2-200 { background-color: var(--green-200); }
@@ -73,7 +74,7 @@ body {
 .text-grey-200 { color: var(--grey-200); }
 .text-grey-50  { color: var(--grey-50); }
 .text-green2-900 { color: var(--green-900); }
-.text-green2-840 { color: var(--green-840); }
+.text-green2-800 { color: var(--green-800); }
 .text-green2-700 { color: var(--green-700); }
 .text-green2-400 { color: var(--green-400); }
 .text-green2-200 { color: var(--green-200); }

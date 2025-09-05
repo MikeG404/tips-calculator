@@ -1,12 +1,13 @@
 import './App.css'
 import Input from './components/Input'
+import TipButton from './components/TipButton'
+import TipButtonCustom from './components/TipButtonCustom'
+import TipAmountRow from './components/TipAmountRow'
+import ResetButton from './components/ResetButton'
 
 import Logo from '../images/logo.svg'
 import IconDollar from '../images/icon-dollar.svg'
 import IconPerson from '../images/icon-person.svg'
-import TipButton from './components/TipButton'
-import TipButtonCustom from './components/TipButtonCustom'
-import TipAmountRow from './components/TipAmountRow'
 
 function App() {
 
@@ -32,8 +33,11 @@ function App() {
         <Input label="Person" name="person" src={IconPerson} alt="Icon Person"/>
 
         <section id='result' className='w-full p-6 rounded-2xl bg-green2-900'>
-          <TipAmountRow rowTitle="Tip Amount"/>
-          <TipAmountRow rowTitle="Total"/>
+          <div className='flex flex-col gap-6 pb-8'>
+            <TipAmountRow rowTitle="Tip Amount"/>
+            <TipAmountRow rowTitle="Total"/>
+          </div>
+          <ResetButton />
         </section>
       </section>
     </main>

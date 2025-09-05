@@ -8,26 +8,14 @@
   --grey-50:  #F3F3FA;
 
   --green-900: #00474B;
-  --green-840: #005C61;
+  --green-800: #085C61;
+  --green-750:#0D686D;  
   --green-700: #00646D;
   --green-400: #26C2AE;
   --green-200: #9FE8DF;
 
   --orange-400: #E17052;
 
-  /* Espacements */
-  --spacing-0: 0px;
-  --spacing-100: 8px;
-  --spacing-200: 16px;
-  --spacing-300: 24px;
-  --spacing-400: 32px;
-  --spacing-600: 48px;
-  --spacing-1000: 80px;
-  --spacing-1200: 96px;
-  --spacing-1500: 120px;
-  --spacing-1600: 128px;
-
-  /* Typo presets */
   --font-mono: 'Space Mono', monospace;
   --preset-1-size: 48px;
   --preset-1-line: 71px;
