@@ -1,0 +1,59 @@
+:root {
+  /* Couleurs */
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --grey-600: #3D6666;
+  --grey-550: #547878;
+  --grey-500: #5E7A7D;
+  --grey-400: #7F9D9F;
+  --grey-300: #9EBBBD;
+  --grey-200: #CDEAE7;
+  --grey-50:  #F3F3FA;
+
+  --green-900: #00474B;
+  --green-840: #005C61;
+  --green-700: #00646D;
+  --green-400: #26C2AE;
+  --green-200: #9FE8DF;
+
+  --orange-400: #E17052;
+
+  /* Espacements */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-600: 48px;
+  --spacing-1000: 80px;
+  --spacing-1200: 96px;
+  --spacing-1500: 120px;
+  --spacing-1600: 128px;
+
+  /* Typo presets */
+  --font-mono: 'Space Mono', monospace;
+  --preset-1-size: 48px;
+  --preset-1-line: 71px;
+  --preset-1-spacing: -1px;
+
+  --preset-2-size: 32px;
+  --preset-2-line: 47px;
+  --preset-2-spacing: -0.67px;
+
+  --preset-3-size: 24px;
+  --preset-3-line: 35px;
+  --preset-3-spacing: 0px;
+
+  --preset-4-size: 20px;
+  --preset-4-line: 30px;
+  --preset-4-spacing: 0px;
+
+  --preset-5-size: 16px;
+  --preset-5-line: 24px;
+  --preset-5-spacing: 0px;
+
+  --preset-6-size: 13px;
+  --preset-6-line: 19px;
+  --preset-6-spacing: 0px;
+}

@@ -1,0 +1,68 @@
+@import url('./variables.css');
+@import "tailwindcss";
+
+.preset-1 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-1-size);
+  line-height: var(--preset-1-line);
+  letter-spacing: var(--preset-1-spacing);
+  font-weight: bold;
+}
+.preset-2 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-2-size);
+  line-height: var(--preset-2-line);
+  letter-spacing: var(--preset-2-spacing);
+  font-weight: bold;
+}
+.preset-3 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-3-size);
+  line-height: var(--preset-3-line);
+  letter-spacing: var(--preset-3-spacing);
+  font-weight: bold;
+}
+.preset-4 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-4-size);
+  line-height: var(--preset-4-line);
+  letter-spacing: var(--preset-4-spacing);
+  font-weight: bold;
+}
+.preset-5 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-5-size);
+  line-height: var(--preset-5-line);
+  letter-spacing: var(--preset-5-spacing);
+  font-weight: bold;
+}
+.preset-6 {
+  font-family: var(--font-mono);
+  font-size: var(--preset-6-size);
+  line-height: var(--preset-6-line);
+  letter-spacing: var(--preset-6-spacing);
+  font-weight: bold;
+}
+
+/* Espacements utilitaires */
+.mt-0    { margin-top: var(--spacing-0); }
+.mt-100  { margin-top: var(--spacing-100); }
+.mt-200  { margin-top: var(--spacing-200); }
+.mt-300  { margin-top: var(--spacing-300); }
+.mt-400  { margin-top: var(--spacing-400); }
+.mt-600  { margin-top: var(--spacing-600); }
+.mt-1000 { margin-top: var(--spacing-1000); }
+.mt-1200 { margin-top: var(--spacing-1200); }
+.mt-1500 { margin-top: var(--spacing-1500); }
+.mt-1600 { margin-top: var(--spacing-1600); }
+
+.p-0    { padding: var(--spacing-0); }
+.p-100  { padding: var(--spacing-100); }
+.p-200  { padding: var(--spacing-200); }
+.p-300  { padding: var(--spacing-300); }
+.p-400  { padding: var(--spacing-400); }
+.p-600  { padding: var(--spacing-600); }
+.p-1000 { padding: var(--spacing-1000); }
+.p-1200 { padding: var(--spacing-1200); }
+.p-1500 { padding: var(--spacing-1500); }
+.p-1600 { padding: var(--spacing-1600); }
