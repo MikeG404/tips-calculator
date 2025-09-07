@@ -52,7 +52,7 @@ function App() {
   const onCustomTipChange = (e) => {
     const value = e.target.value
     setValues(prevValues => ({
-      ...prevValues,
+      ...prevValues,  
       customTip: value,
       tip: value ? parseFloat(value) : null
     }))
@@ -98,7 +98,8 @@ function App() {
   return (
     <main className='h-screen flex flex-col justify-center items-center'>
       <img src={Logo} alt="logo" className='m-auto py-[50px] xl:m-0 xl:pb-[80px] xl:pt-0'/>
-      <section id='calculator' className='w-full h-screen flex flex-col items-center gap-8 px-6 py-8 bg-white rounded-t-2xl md:max-w-[600px] md:px-20 py-12 md:h-auto xl:flex-row xl:max-w-[920px] xl:p-8 xl:items-start'>
+      <section id='calculator' 
+        className='w-full h-screen flex flex-col items-center gap-8 px-6 py-8 bg-white rounded-t-2xl xl:rounded-2xl md:max-w-[600px] md:px-20 py-12 md:h-auto xl:flex-row md:max-w-[920px] xl:p-8 xl:items-start'>
 
 
         <section id='tip-selection' className='w-full flex flex-col gap-8'>
